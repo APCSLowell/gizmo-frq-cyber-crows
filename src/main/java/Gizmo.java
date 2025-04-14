@@ -24,8 +24,9 @@ public class Gizmo
         count++; 
     }
   return count; 
+  }
   
-  public boolean hasAdajacentEqualPair(){
+  public boolean hasAdjacentEqualPair(){
     if(purchases.size()<2)
       return true; 
     for(int i=0; i<purchases.size()-1;i++){

@@ -8,6 +8,11 @@ public class Gizmo
   {
     return maker;
   }
+
+   public boolean isElectronic()
+  {
+    return isElec;
+  }
   /** Returns true if this Gizmo is electronic, and false
   * otherwise.
   */
@@ -30,10 +35,7 @@ public class Gizmo
     return false; 
     
   }
-  public boolean isElectronic()
-  {
-    return isElec;
-  }
+ 
   /** Returns true if this Gizmo is equivalent to the Gizmo
   * object represented by the
   * parameter, and false otherwise.
